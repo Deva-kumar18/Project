@@ -332,7 +332,7 @@ box-sizing: border-box;
    
     .p-branding-page-container-p{
         font-size: 3vw;
-        line-height: 4vh;
+        line-height: 3vh;
     }
     .p1-div{
         height: 30vh;
@@ -368,7 +368,7 @@ box-sizing: border-box;
         width: 90vw
     }
     .p-branding-page-container-2{
-        height: 130vh;
+        height: 114vh;
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -438,7 +438,7 @@ box-sizing: border-box;
             line-height: 5vh;
         }
         .p-branding-page-container-3{
-            height: 105vh;
+            height: 94vh;
             width: 100vw;
             display: flex;
             padding: 0 5vw;
