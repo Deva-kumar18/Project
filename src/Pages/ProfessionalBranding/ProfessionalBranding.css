@@ -301,11 +301,12 @@ box-sizing: border-box;
         display: flex;
         flex-direction: column;
         height: 44vh;
-        width: 90vw;
+        width: 70vw;
         border-top-left-radius: 1vh;
         border-bottom-left-radius: 1vh;
         border-bottom-right-radius: 1vh;
         box-sizing: border-box;
+       
         
     }
     .p-branding-page-container-1{
@@ -314,7 +315,7 @@ box-sizing: border-box;
         display: flex;
         flex-direction: column;
         row-gap: 3vw;
-        padding: 0 5vw;
+        padding: 0 15vw;
         box-sizing: border-box;
     }
     .icon-1,.icon-2,.icon-3{
@@ -323,14 +324,14 @@ box-sizing: border-box;
         padding: 1.5vh;
     }
  .p-branding-page-container-heading{
-    font-size: 6vw;
+    font-size: 5vw;
     line-height: 5vh;
 
     }
    
     .p-branding-page-container-p{
-        font-size: 5vw;
-        line-height: 5vh;
+        font-size: 3vw;
+        line-height: 4vh;
     }
     .p1-div{
         height: 30vh;
@@ -366,7 +367,7 @@ box-sizing: border-box;
         width: 90vw
     }
     .p-branding-page-container-2{
-        height: 204vh;
+        height: 130vh;
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -429,13 +430,13 @@ box-sizing: border-box;
             border-radius: none;
         }
         .p-branding-container-3-sub-h{
-            font-size: 5vw;
+            font-size: 4vw;
             font-weight: 500;
             font-family: Poppins;
             line-height: 5vh;
         }
         .p-branding-page-container-3{
-            height: 138vh;
+            height: 105vh;
             width: 100vw;
             display: flex;
             padding: 0 5vw;
@@ -445,7 +446,7 @@ box-sizing: border-box;
         }
         .p-branding-container-heading-1{
             line-height: 3vh;
-            font-size: 6vw;
+            font-size: 4vw;
         }
         .p-branding-page-container-2-text-align{
             height: 60vh;
