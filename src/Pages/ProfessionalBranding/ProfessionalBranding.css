@@ -1,0 +1,447 @@
+.professional-container{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8vh;
+    
+    
+}
+.brand-image{
+    height: 50vh;
+    width: 90vw;
+    padding: 0 2.5vw;
+   
+
+}
+
+
+.p2-div{
+    display: flex;
+    
+    
+}
+.p1-div{
+    height: 50vh;
+    width: 100vw;
+    position: relative;
+   
+}
+.p-branding-img{
+    width: 45vw;
+    padding: 0 2.5vw;
+}
+.back-image-trasparant{
+    height: 50vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+}
+.b-style{
+    height: 80vh;
+    width: 40vw;
+    
+}
+.header-for-p-branding{
+    position: absolute;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.p-branding-top2{
+    width: 40vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Poppins;
+    color: #FFFFFF;
+    font-size: 1vw;
+    text-indent: 12px;
+    
+    
+    
+}
+.p3-div{
+    display: flex;
+}
+.p-branding-top{
+    font-size: 2vw;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #FFFFFF;
+    letter-spacing: 4px;
+    
+}
+.branding-t{
+    display: flex;
+    height: 40vh;
+    width: 90vw;
+    column-gap: 4vw;
+    padding: 0 5vw;
+    
+    
+}
+.brand-t{
+    height: 50vh;
+    width: 80vw;
+    padding: 0 10vw;
+}
+.p-branding-image-2{
+    width: 45vw;
+    padding: 0 2.5vw;
+}
+
+.p-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 6vh;
+}
+
+/* icons+2nd container */
+.icon-1{
+    background-image: url('../../Assets/Rectangle\ 22.png');
+    background-size: cover;
+    padding: 3vh;
+    border-radius: 1vh;
+    
+}
+.icon-2{
+    background-image: url('../../Assets/Rectangle\ 23.png');
+    background-size: cover;
+    padding: 3vh;
+    border-radius: 1vh;
+}
+.icon-3{
+    background-image: url('../../Assets/Rectangle\ 22.png');
+    padding: 3vh;
+    background-size: cover;
+    border-radius: 1vh;
+}
+.p-branding-page-container-1-1{
+background-size: cover;
+background-image: url('../../Assets/Rectangle\ 8.png');
+display: flex;
+flex-direction: column;
+height: 50vh;
+width: 26vw;
+padding: 2vh;
+box-sizing: border-box;
+border-top-left-radius: 1vh;
+border-bottom-left-radius: 1vh;
+border-bottom-right-radius: 1vh;
+}
+.p-branding-page-container-1-2{
+    background-size: cover;
+background-image: url('../../Assets/Rectangle\ 18.png');
+display: flex;
+flex-direction: column;
+height: 50vh;
+width: 26vw;
+padding: 2vh;
+box-sizing: border-box;
+border-top-left-radius: 1vh;
+border-bottom-left-radius: 1vh;
+border-bottom-right-radius: 1vh;
+    }
+    .p-branding-page-container-1-3{
+        background-size: cover;
+        background-image: url('../../Assets/Rectangle\ 8.png');
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        width: 26vw;
+        padding: 2vh;
+        box-sizing: border-box;
+        border-top-left-radius: 1vh;
+       border-bottom-left-radius: 1vh;
+        border-bottom-right-radius: 1vh;
+        }
+.p-branding-page-container-p{
+font-size: 1.3vw;
+font-weight: 400;
+line-height: 4.5vh;
+font-family: Poppins;
+
+}
+.p-branding-page-container-1{
+    height: 55vh;
+    width: 100vw;
+    display: flex;
+    padding: 0 7vw;
+    column-gap: 4vw;
+}
+.p-branding-page-container-heading{
+    font-size: 1.7vw;
+    font-family: Poppins;
+    font-weight: 600;
+    color: #0C21C1;
+    line-height: 8vh;
+}
+.p-branding-container-heading-1{
+    font-size: 1.7vw;
+    font-family: Poppins;
+    font-weight: 600;
+    color: #0C21C1;
+    line-height: 8vh;
+}
+
+.p-branding-page-container-2-img{
+    height: 90vh;
+    width: 40vw
+}
+.p-branding-page-container-2{
+height: 100vh;
+width: 100vw;
+display: flex;
+align-items: center;
+column-gap: 4vw;
+padding: 0 4vw;
+box-sizing: border-box;
+}
+.p-branding-page-container-p-li{
+    display: flex;
+}
+.p-branding-li{
+    font-size: 1.1vw;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 6vh;
+}
+.p-branding-page-container-3{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    padding: 0 4vw;
+    box-sizing: border-box;
+    column-gap: 4vw;
+}
+.image-2{
+    height: 80vh;
+    width: 50vw;
+    border-radius: none;
+}
+.p-branding-container-3-sub-h{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 44px;
+}
+.p-branding-container-4{
+    width: 100vw;
+    padding: 0 25vw;
+    position: relative;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+
+    
+   
+    
+}
+.container-4-flex{
+    display: flex;
+    box-sizing: border-box;
+    height: 12vh;
+    align-items: center;
+    width: 50vw;
+    justify-content: space-between;
+    background-color: #FFD24F;
+    border-radius: 20px;
+    position: relative;
+}
+.telegram-icon{
+    height: 10vh;
+    width: 6vw;
+    position: absolute;
+    top: 0vh;
+    margin-left: 2vw;
+    z-index: 1;
+    
+}
+.read-icon{
+    height: 14vh;
+    width: 8vw;
+    margin-bottom: 2vh;
+}
+.p-branding-page-container-heading-1{
+    font-size: 2vw;
+    font-family: Poppins;
+    font-weight: 600;
+    color:  #313131;
+    line-height: 80px;
+    margin-left: 8vw;
+}
+
+
+/* Media Query */
+@media screen and (min-width: 300px) and (max-width:600px) {
+    .p-branding-top{
+        font-size: clamp(16px, 4vw, 24px);
+    }
+    .p-branding-top2{
+        width: 80vw;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: Poppins;
+        color: #FFFFFF;
+        font-size: 2.2vw;
+        text-indent: 12px;
+    }
+    .p-branding-page-container-1-3,.p-branding-page-container-1-2,.p-branding-page-container-1-1{
+        
+        background-size: cover;
+        background-image: url('../../Assets/Rectangle\ 8.png');
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        width: 30vw;
+        border-top-left-radius: 1vh;
+        border-bottom-left-radius: 1vh;
+        border-bottom-right-radius: 1vh;
+        box-sizing: border-box;
+        
+    }
+    .p-branding-page-container-1{
+        height: 30vh;
+        width: 100vw;
+        display: flex;
+        padding: 0 2vw;
+        column-gap: 2vw;
+        box-sizing: border-box;
+    }
+    .icon-1,.icon-2,.icon-3{
+        height: 2vh;
+        width: 3vw;
+        padding: 1.5vh;
+    }
+ .p-branding-page-container-heading{
+    font-size: 1.5vh;
+    line-height: 3vh;
+
+    }
+   
+    .p-branding-page-container-p{
+        font-size: 1vh;
+        line-height: 2vh;
+    }
+    .p1-div{
+        height: 30vh;
+        width: 100vw;
+        position: relative;
+       
+    }
+    .back-image-trasparant{
+        height: 30vh;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+    }
+    .brand-image{
+        height: 30vh;
+        width: 90vw;
+        padding: 0 2.5vw;
+       
+    
+    }
+    .header-for-p-branding{
+        position: absolute;
+        height: 30vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+    }
+    .p-branding-page-container-2-img{
+        height: 50vh;
+        width: 40vw
+    }
+    .p-branding-page-container-2{
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        column-gap: 4vw;
+        padding: 0 4vw;
+        box-sizing: border-box;
+        }
+        .p-branding-li{
+            font-size: 1vh;
+            font-weight: 300;
+            font-family: Poppins;
+            line-height: 3vh;
+            
+            
+        }
+        .p-branding-container-4{
+            width: 100vw;
+            padding: 0 25vw;
+            position: relative;
+            height: 18vh;
+            display: flex;
+            align-items: center;
+        
+            
+           
+            
+        }
+        .container-4-flex{
+            display: flex;
+            box-sizing: border-box;
+            height: 6vh;
+            align-items: center;
+            width: 50vw;
+            justify-content: space-between;
+            background-color: #FFD24F;
+            border-radius: 10px;
+            position: relative;
+        }
+        .telegram-icon{
+            height: 6vh;
+            width: 5vw;
+            position: absolute;
+            top: 2vh;
+            margin-left: 2vw;
+            z-index: 1;
+            
+        }
+        .read-icon{
+            height: 7vh;
+            width: 8vw;
+            margin-bottom: 2vh;
+        }
+        .p-branding-page-container-heading-1{
+            font-size: 2vw;
+        }
+        .image-2{
+            height: 35vh;
+            width: 50vw;
+            border-radius: none;
+        }
+        .p-branding-container-3-sub-h{
+            font-size: 1vh;
+            font-weight: 500;
+            font-family: Poppins;
+            line-height: 3vh;
+        }
+        .p-branding-page-container-3{
+            height: 35vh;
+            width: 100vw;
+            display: flex;
+            padding: 0 4vw;
+            column-gap: 4vw;
+            box-sizing: border-box;
+        }
+        .p-branding-container-heading-1{
+            line-height: 2vh;
+            font-size: 1.5vw;
+        }
+  }

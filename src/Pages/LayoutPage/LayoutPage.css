@@ -1,0 +1,30 @@
+.layout-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    position: relative;
+}
+.navbar-container{
+    height: 8vh;
+    width: 100vw;
+    top: 0;
+    background-color: white;
+}
+.footer-container{
+    
+    height: 38vh;
+    width: 100vw;
+    background-color: #0C21C1;
+    
+}
+.content-container{
+    height: 92vh;
+    width: 100vw;
+    background-color: white;
+    position: absolute;
+    top: 8vh;
+    overflow-y: scroll;
+    
+    
+
+}
