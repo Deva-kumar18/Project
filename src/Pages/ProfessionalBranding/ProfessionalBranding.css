@@ -300,8 +300,8 @@ box-sizing: border-box;
         background-image: url('../../Assets/Rectangle\ 8.png');
         display: flex;
         flex-direction: column;
-        height: 30vh;
-        width: 30vw;
+        height: 44vh;
+        width: 90vw;
         border-top-left-radius: 1vh;
         border-bottom-left-radius: 1vh;
         border-bottom-right-radius: 1vh;
@@ -309,27 +309,28 @@ box-sizing: border-box;
         
     }
     .p-branding-page-container-1{
-        height: 30vh;
+        height: 124vh;
         width: 100vw;
         display: flex;
-        padding: 0 2vw;
-        column-gap: 2vw;
+        flex-direction: column;
+        row-gap: 3vw;
+        padding: 0 5vw;
         box-sizing: border-box;
     }
     .icon-1,.icon-2,.icon-3{
-        height: 2vh;
-        width: 3vw;
+        height: 5vh;
+        width: 10vw;
         padding: 1.5vh;
     }
  .p-branding-page-container-heading{
-    font-size: 1.5vh;
-    line-height: 3vh;
+    font-size: 6vw;
+    line-height: 5vh;
 
     }
    
     .p-branding-page-container-p{
-        font-size: 1vh;
-        line-height: 2vh;
+        font-size: 5vw;
+        line-height: 5vh;
     }
     .p1-div{
         height: 30vh;
@@ -362,19 +363,20 @@ box-sizing: border-box;
     }
     .p-branding-page-container-2-img{
         height: 50vh;
-        width: 40vw
+        width: 90vw
     }
     .p-branding-page-container-2{
-        height: 50vh;
+        height: 204vh;
         width: 100vw;
         display: flex;
+        flex-direction: column;
         align-items: center;
-        column-gap: 4vw;
-        padding: 0 4vw;
+        padding: 0 5vw;
         box-sizing: border-box;
+        row-gap: 4vh;
         }
         .p-branding-li{
-            font-size: 1vh;
+            font-size: 3.1vw;
             font-weight: 300;
             font-family: Poppins;
             line-height: 3vh;
@@ -422,26 +424,31 @@ box-sizing: border-box;
             font-size: 2vw;
         }
         .image-2{
-            height: 35vh;
-            width: 50vw;
+            height: 50vh;
+            width: 90vw;
             border-radius: none;
         }
         .p-branding-container-3-sub-h{
-            font-size: 1vh;
+            font-size: 5vw;
             font-weight: 500;
             font-family: Poppins;
-            line-height: 3vh;
+            line-height: 5vh;
         }
         .p-branding-page-container-3{
-            height: 35vh;
+            height: 138vh;
             width: 100vw;
             display: flex;
-            padding: 0 4vw;
-            column-gap: 4vw;
+            padding: 0 5vw;
+            flex-direction: column;
             box-sizing: border-box;
+            row-gap: 4vh;
         }
         .p-branding-container-heading-1{
-            line-height: 2vh;
-            font-size: 1.5vw;
+            line-height: 3vh;
+            font-size: 6vw;
+        }
+        .p-branding-page-container-2-text-align{
+            height: 60vh;
+            width: 90vw;
         }
   }
