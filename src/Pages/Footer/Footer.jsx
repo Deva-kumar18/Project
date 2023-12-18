@@ -20,6 +20,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      
       <div className='foot-2'><div className='f-h-1'>Pages</div>
       <div>Home</div>
       <div>About us</div>
@@ -31,6 +32,7 @@ const Footer = () => {
         <div>Privacy & Policy</div>
       </div>
       </div>
+  
          <hr />
          <div className='copyright'>
           <div>Linka Private Limited.<span>&copy;</span>Copyright All Rights Reserved.</div>

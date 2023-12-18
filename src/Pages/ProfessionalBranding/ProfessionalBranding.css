@@ -306,6 +306,7 @@ box-sizing: border-box;
         border-bottom-left-radius: 1vh;
         border-bottom-right-radius: 1vh;
         box-sizing: border-box;
+        padding: 4vh;
        
         
     }
@@ -386,7 +387,7 @@ box-sizing: border-box;
         }
         .p-branding-container-4{
             width: 100vw;
-            padding: 0 25vw;
+            padding: 0 15vw;
             position: relative;
             height: 18vh;
             display: flex;
@@ -399,9 +400,9 @@ box-sizing: border-box;
         .container-4-flex{
             display: flex;
             box-sizing: border-box;
-            height: 6vh;
+            height: 8vh;
             align-items: center;
-            width: 50vw;
+            width: 70vw;
             justify-content: space-between;
             background-color: #FFD24F;
             border-radius: 10px;
@@ -409,7 +410,7 @@ box-sizing: border-box;
         }
         .telegram-icon{
             height: 6vh;
-            width: 5vw;
+            width: 10vw;
             position: absolute;
             top: 2vh;
             margin-left: 2vw;
@@ -417,12 +418,13 @@ box-sizing: border-box;
             
         }
         .read-icon{
-            height: 7vh;
-            width: 8vw;
+            height: 10vh;
+            width: 12vw;
             margin-bottom: 2vh;
         }
         .p-branding-page-container-heading-1{
-            font-size: 2vw;
+            font-size: 3vw;
+            
         }
         .image-2{
             height: 50vh;
