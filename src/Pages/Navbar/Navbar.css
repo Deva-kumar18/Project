@@ -48,15 +48,16 @@
         
     }
     .p-br-p{
-        width: 120px;
+        width: 42vw;
     }
     .nav2{
         font-size: 4vw;
-        margin-left: 4vw;
+        margin-left: 2vw;
         display: flex;
-        column-gap: 1vw;
+        column-gap: 2vw;
         font-family: Rubik;
         align-items: center;
+        
         
         
         
@@ -67,19 +68,20 @@
         align-items: center;
         font-weight: 400;
         font-family: Rubik;
-        font-size: 3vw;
+        font-size: 4vw;
     }
     .navbar-container{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        box-sizing: border-box;
        
     }
     .singup-btn{
         padding: 2vw 4vw;
         border-radius: 5px;
         border: none;
-        font-size: 3vw;
+        font-size: 4vw;
         background-color: #0C21C1;
         color: white;
     }
