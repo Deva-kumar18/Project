@@ -178,12 +178,13 @@ font-family: Poppins;
     column-gap: 4vw;
 }
 .p-branding-page-container-heading{
-    font-size: 1.7vw;
+    font-size: 2vw;
     font-family: Poppins;
     font-weight: 600;
     color: #0C21C1;
     line-height: 8vh;
 }
+
 .p-branding-container-heading-1{
     font-size: 1.7vw;
     font-family: Poppins;
@@ -229,8 +230,8 @@ background-color: #F5F5F5;
     border-radius: none;
 }
 .p-branding-container-3-sub-h{
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 1.5vw;
+    font-weight: 600;
     font-family: Poppins;
     line-height: 44px;
 }

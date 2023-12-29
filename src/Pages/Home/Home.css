@@ -47,6 +47,12 @@ span{
   margin-top: 4vh;
   
 }
+.cont-1-subh-1{
+  font-size: 1.6vw;
+  font-family: Poppins;
+  font-weight: 600;
+
+}
 .j-btn{
   padding: 0.5vw 1.5vw;
   border-radius: 8px;
@@ -77,10 +83,11 @@ span{
   line-height: 8vh;
 }
 .home-sub-h{
-  font-size: 2vw;
+  font-size: 1.7vw;
   font-family: Poppins;
   font-weight: 600;
   width: 70vh;
+  font-style: italic;
 }
 .cont-1-p{
   font-size: 1.5vw;
@@ -92,6 +99,7 @@ span{
   font-size: 1.6vw;
   font-family: Poppins;
   font-weight: 600;
+  
 }
 .home-page-container-3{
   height: 60vh;
@@ -213,6 +221,13 @@ span{
     font-family: Poppins;
     font-weight: 600;
     width: 50vw;
+    font-style: italic;
+  }
+  .cont-1-subh-1{
+    font-size: 3.5vw;
+    font-family: Poppins;
+    font-weight: 600;
+  
   }
   .cont-1-p{
     font-size: 3vw;

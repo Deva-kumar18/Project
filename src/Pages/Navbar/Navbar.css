@@ -36,12 +36,14 @@
     
 }
 .linka-ico{
-    height: 20px;
+    font-size: 3vw;
+    font-family: 'Rajdhani';
+    color: #0C21C1;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 450px) {
     .linka-ico{
-        height: 14px !important;
+        font-size: 5vw !important;
         
         
     }
@@ -49,7 +51,7 @@
         width: 120px;
     }
     .nav2{
-        font-size: 2.5vw;
+        font-size: 0.7rem;
         margin-left: 4vw;
         display: flex;
         column-gap: 2vw;
@@ -60,11 +62,11 @@
     }
     .nav3{
         display: flex;
-        column-gap: 4vw;
+        column-gap: 2vw;
         align-items: center;
         font-weight: 400;
         font-family: Rubik;
-        font-size: 2.5vw;
+        font-size: 0.7rem;
     }
     .navbar-container{
         display: flex;
@@ -73,10 +75,10 @@
        
     }
     .singup-btn{
-        padding: 2vw 6vw;
+        padding: 2vw 4vw;
         border-radius: 5px;
         border: none;
-        font-size: 2vw;
+        font-size: 3vw;
         background-color: #0C21C1;
         color: white;
     }

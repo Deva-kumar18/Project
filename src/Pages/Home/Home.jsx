@@ -28,9 +28,9 @@ const Home = () => {
            Connect with Gurus</div>
           <div className="cont-1-p">Linka is committed to empowering learners to achieve their goals. Discover the perfect Mentor who will inspire, guide, and support you every step of the way.</div>
           <div>
-            <div className="cont-1-subh">Filter by Expertise:</div>
+            <div className="cont-1-subh-1">Filter by Expertise:</div>
             <div className="cont-1-p"> Narrow down your search by selecting specific expertise, ensuring you find the perfect match for your learning goals.</div>
-            <div className="cont-1-subh">View Mentor Profiles:</div>
+            <div className="cont-1-subh-1">View Mentor Profiles:</div>
             <div className="cont-1-p">  Dive into detailed profiles showcasing each teacher's qualifications, teaching     philosophy, and experience.</div>
           </div>
         </div>
