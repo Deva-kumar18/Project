@@ -1,32 +1,32 @@
-.footer-container{
-   
-
-}
 .copyright{
     color: white;
     font-family: Rubik;
-    font-size:18px ;
+    font-size:2vw ;
     text-align: center;
     display: flex;
     justify-content: center;
-    
     height: 6vh;
     align-items: center;
 }
 .x-icon{
-    height: 35px;
-    width: 35px;
+    height: 20px;
+    width: 20px;
     border: 2px solid #FFFFFF;
     border-radius: 6px;
     box-sizing: border-box;
 }
+.upskill-logo{
+    height: 70px;
+    width: 100px;
+}
 .ico-headings{
-    font-size: 18px;
+    font-size: 10px;
     font-weight: 500;
     color: #FFFFFF;
     font-family: Poppins;
     letter-spacing: 1px;
 }
+
 .ico-flex{
     display: flex;
     column-gap: 5px;
@@ -38,7 +38,7 @@
     row-gap: 2px;
 }
 .social-ico{
-    font-size: 35px;
+    font-size: 20px;
     color: #FFFFFF;
 }
 .foot-1{
@@ -47,7 +47,7 @@
     align-items: center;
 }
 .l-title-2{
-    font-size: 25px;
+    font-size: 10px;
     font-weight: 500;
     color: white;
     font-family: Rubik;
@@ -55,7 +55,7 @@
 }
 .foot-container{
     display: flex;
-    height: 28vh;
+    height: 26vh;
     width: 100vw;
     justify-content: space-around;
     align-items: center;
@@ -67,7 +67,7 @@
     font-family: Poppins;
 }
 .f-h-1{
-    font-size: 24px;
+    font-size: 2vw;
     color: #FFFFFF;
     letter-spacing: 1px;
     font-family: Roboto;
@@ -75,20 +75,18 @@
 .foot-2,.foot-3{
     color: #FFFFFF;
     display: flex;
-    font-size: 18px;
+    font-size: 1.4vw;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 12px;
     flex-direction: column;
-    row-gap: 10px;
     font-family: Poppins;
+    row-gap: 2vh;
 
 }
-.l-content{
 
-    
-}
+
 .l-title{
-    font-size: 60px;
+    font-size: 20px;
     font-weight: bold;
     font-family: Rubik;
     color: white;
@@ -112,9 +110,6 @@
     }
     .f-h-1{
         font-size: 12px;
-
-    }
-    .icon-container{
 
     }
     .social-ico{

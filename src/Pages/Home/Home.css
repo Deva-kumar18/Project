@@ -5,8 +5,11 @@
   flex-direction: column;
   row-gap: 4vh;
 }
+.upskill-span{
+  color: #0C21C1;
+}
 .top-heading{
-  font-size: 3vw;
+  font-size: 1rem;
   font-family: Poppins;
   font-weight: 600;
   line-height: 8vh;
@@ -292,3 +295,4 @@ span{
 
 }
   
+

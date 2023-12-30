@@ -75,7 +75,6 @@ const ProfessionalBranding = () => {
               <div><img className='read-icon' src={Image3}/></div>
             </div>
           </div>
-        <div><Footer/></div>
     </div>
     </div>
   )

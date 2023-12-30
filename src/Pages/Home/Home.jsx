@@ -13,7 +13,7 @@ const Home = () => {
         <div className="top-container"> 
           <div className="top-heading">Learn with <span>Experts</span> Anytime 
              Anywhere</div>
-          <div className="top-p">Are you ready to embark on a journey of knowledge and growth with a dedicated online private teacher? Look no further! UpskillMeet is here to connect you with experienced and qualified educators who are passionate about helping you achieve your learning goals.</div>
+          <div className="top-p">Are you ready to embark on a journey of knowledge and growth with a dedicated online private teacher? Look no further! <span className="upskill-span">UpskillMeet</span> is here to connect you with experienced and qualified educators who are passionate about helping you achieve your learning goals.</div>
           <div className="join-btn"><button className="j-btn">Join now</button></div>
         </div>
         <div className="top-image"><img className="top-image" src={Image1}/></div>
@@ -67,8 +67,7 @@ const Home = () => {
               <div><img className='read-icon' src={icon2}/></div>
             </div>
           </div>
-      <div>
-        <Footer />
+      <div>  
       </div>
     </div>
   );

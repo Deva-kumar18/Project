@@ -11,15 +11,9 @@
     height: 50vh;
     width: 90vw;
     padding: 0 2.5vw;
-   
-
 }
-
-
 .p2-div{
-    display: flex;
-    
-    
+    display: flex;   
 }
 .p1-div{
     height: 50vh;
@@ -102,7 +96,6 @@
     row-gap: 6vh;
 }
 
-/* icons+2nd container */
 .icon-1{
     background-image: url('../../Assets/Rectangle\ 22.png');
     background-size: cover;
@@ -127,7 +120,7 @@ background-size: cover;
 background-image: url('../../Assets/Rectangle\ 8.png');
 display: flex;
 flex-direction: column;
-height: 50vh;
+height: 60vh;
 width: 26vw;
 padding: 3vh;
 box-sizing: border-box;
@@ -140,7 +133,7 @@ border-bottom-right-radius: 1vh;
 background-image: url('../../Assets/Rectangle\ 18.png');
 display: flex;
 flex-direction: column;
-height: 50vh;
+height: 60vh;
 width: 26vw;
 padding: 3vh;
 box-sizing: border-box;
@@ -153,7 +146,7 @@ border-bottom-right-radius: 1vh;
         background-image: url('../../Assets/Rectangle\ 8.png');
         display: flex;
         flex-direction: column;
-        height: 50vh;
+        height: 60vh;
         width: 26vw;
         padding: 3vh;
         box-sizing: border-box;
@@ -164,10 +157,10 @@ border-bottom-right-radius: 1vh;
         
         }
 .p-branding-page-container-p{
-font-size: 1.3vw;
-font-weight: 400;
-line-height: 4.5vh;
-font-family: Poppins;
+    font-size: 1.5vw;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 5vh;
 
 }
 .p-branding-page-container-1{
@@ -211,7 +204,7 @@ background-color: #F5F5F5;
     display: flex;
 }
 .p-branding-li{
-    font-size: 1.1vw;
+    font-size: 1.4vw;
     font-weight: 500;
     font-family: Poppins;
     line-height: 6vh;
@@ -237,22 +230,18 @@ background-color: #F5F5F5;
 }
 .p-branding-container-4{
     width: 100vw;
-    padding: 0 25vw;
+    padding: 0 30vw;
     position: relative;
     height: 20vh;
     display: flex;
-    align-items: center;
-
-    
-   
-    
+    align-items: center; 
 }
 .container-4-flex{
     display: flex;
     box-sizing: border-box;
     height: 12vh;
     align-items: center;
-    width: 50vw;
+    width: 40vw;
     justify-content: space-between;
     background-color: #FFD24F;
     border-radius: 20px;
@@ -273,7 +262,7 @@ background-color: #F5F5F5;
     margin-bottom: 2vh;
 }
 .p-branding-page-container-heading-1{
-    font-size: 2vw;
+    font-size: 1.2vw;
     font-family: Poppins;
     font-weight: 600;
     color:  #313131;
@@ -283,6 +272,7 @@ background-color: #F5F5F5;
 
 
 /* Media Query */
+
 @media screen and (min-width: 300px) and (max-width:600px) {
     .p-branding-top{
         font-size: clamp(16px, 4vw, 24px);
@@ -459,3 +449,191 @@ background-color: #F5F5F5;
             width: 90vw;
         }
   }
+
+
+  @media screen and (min-width: 100px) and (max-width: 299px) {
+    .p-branding-top {
+        font-size: clamp(16px, 4vw, 24px)!important;
+    }
+
+    .p-branding-top2 {
+        width: 80vw;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: Poppins;
+        color: #FFFFFF;
+        font-size: 2.2vw;
+        text-indent: 12px;
+    }
+
+    .p-branding-page-container-1-3,
+    .p-branding-page-container-1-2,
+    .p-branding-page-container-1-1 {
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        height: 44vh;
+        width: 70vw;
+        border-top-left-radius: 1vh;
+        border-bottom-left-radius: 1vh;
+        border-bottom-right-radius: 1vh;
+        box-sizing: border-box;
+        padding: 4vh;
+    }
+
+    .p-branding-page-container-1 {
+        height: 124vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        row-gap: 3vw;
+        padding: 0 15vw;
+        box-sizing: border-box;
+    }
+
+    .icon-1,
+    .icon-2,
+    .icon-3 {
+        height: 5vh;
+        width: 10vw;
+        padding: 1.5vh;
+    }
+
+    .p-branding-page-container-heading {
+        font-size: 5vw;
+        line-height: 5vh;
+    }
+
+    .p-branding-page-container-p {
+        font-size: 3vw;
+        line-height: 3vh;
+    }
+
+    .p1-div {
+        height: 30vh;
+        width: 100vw;
+        position: relative;
+    }
+
+    .back-image-trasparent {
+        height: 30vh;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+    }
+
+    .brand-image {
+        height: 30vh;
+        width: 90vw;
+        padding: 0 2.5vw;
+    }
+
+    .header-for-p-branding {
+        position: absolute;
+        height: 30vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .p-branding-page-container-2-img {
+        height: 50vh;
+        width: 90vw;
+    }
+
+    .p-branding-page-container-2 {
+        height: 126vh;
+        width: 100vw;
+        background-color: #F5F5F5;
+        display: flex;
+        flex-direction: column;
+        padding: 4vh 5vw;
+        box-sizing: border-box;
+        row-gap: 4vh;
+    }
+
+    .p-branding-li {
+        font-size: 3.1vw;
+        font-weight: 300;
+        font-family: Poppins;
+        line-height: 3vh;
+    }
+
+    .p-branding-container-4 {
+        width: 100vw;
+        padding: 0 15vw;
+        position: relative;
+        height: 18vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .container-4-flex {
+        display: flex;
+        box-sizing: border-box;
+        height: 8vh;
+        align-items: center;
+        width: 70vw;
+        justify-content: space-between;
+        background-color: #FFD24F;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .telegram-icon {
+        height: 6vh;
+        width: 10vw;
+        position: absolute;
+        top: 2vh;
+        margin-left: 2vw;
+        z-index: 1;
+    }
+
+    .read-icon {
+        height: 10vh;
+        width: 12vw;
+        margin-bottom: 2vh;
+    }
+
+    .p-branding-page-container-heading-1 {
+        font-size: 3vw;
+    }
+
+    .image-2 {
+        height: 50vh;
+        width: 90vw;
+        border-radius: none;
+    }
+
+    .p-branding-container-3-sub-h {
+        font-size: 4vw;
+        font-weight: 600;
+        font-family: Poppins;
+        line-height: 5vh;
+    }
+
+    .p-branding-page-container-3 {
+        height: 94vh;
+        width: 100vw;
+        display: flex;
+        padding: 0 5vw;
+        flex-direction: column;
+        box-sizing: border-box;
+        row-gap: 4vh;
+    }
+
+    .p-branding-container-heading-1 {
+        line-height: 3vh;
+        font-size: 4vw;
+    }
+
+    .p-branding-page-container-2-text-align {
+        height: 50vh;
+        width: 90vw;
+    }
+}
