@@ -1,4 +1,4 @@
-import { TwitterOutlined,FacebookOutlined,InstagramOutlined } from '@ant-design/icons'
+import { FacebookOutlined,InstagramOutlined } from '@ant-design/icons'
 import React from 'react'
 import Twitter from '../../Assets/logo-x.png'
 import logo from '../../Assets/Upskill-logo.png'
@@ -18,8 +18,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      
-      <div className='foot-2'><div className='f-h-1'>Pages</div>
+      <div className='pages-link'><div className='foot-2'><div className='f-h-1'>Pages</div>
       <div>Home</div>
       <div>About us</div>
       <div>Contact Us</div></div>
@@ -28,6 +27,7 @@ const Footer = () => {
         <div>Help</div>
         <div>Terms & conditions</div>
         <div>Privacy & Policy</div>
+      </div>
       </div>
       </div>
          <hr />

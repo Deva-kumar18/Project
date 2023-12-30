@@ -57,11 +57,12 @@ span{
 
 }
 .j-btn{
-  padding: 0.5vw 1.5vw;
-  border-radius: 8px;
+  padding: 0.5vw 2vw;
+  border-radius: 4px;
   background-color: #0C21C1;
   color: #FFFFFF;
-  font-size: 1vw;
+  font-size: 2vw;
+  border: none;
 
 }
 .img-2{
@@ -188,11 +189,11 @@ span{
     
   }
   .j-btn{
-    padding: 1vw 4vw;
+    padding: 2vw 5vw;
     border-radius: 4px;
     background-color: #0C21C1;
     color: #FFFFFF;
-    font-size: 2vw;
+    font-size: 3vw;
   
   }
   .img-2{
