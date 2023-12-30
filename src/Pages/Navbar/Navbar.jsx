@@ -37,7 +37,7 @@ const Navbar = () => {
                    <div className='nav-item'>
                    <p className='nav-page' onClick={()=>{navHome();setIsToggled(isToggled === false ? true : false)}}>Home</p>
                    <p className='nav-page' onClick={()=>{navProfBranding();setIsToggled(isToggled === false ? true : false)}}>Professional branding</p>
-                   <div>Login</div><div><button className='singup-btn-small'>Singup</button></div></div>
+                   <p className='nav-page'>Login</p><div><button className='singup-btn-small'>Singup</button></div></div>
                    </div>
                 }
              </div>
