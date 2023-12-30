@@ -56,13 +56,21 @@
     font-family: "rajdhani";
     color: #0C21C1;
 }
+.nav-btn{
+    font-size: 20px;
+    color: #0C21C1;
+    margin-top: 30px;
+}
 .navbar-container-small{
     height: auto;
     width: 100vw;
     background-color: #FFFFFF;
-    padding: 2vh;
+    padding: 1vh;
     box-sizing: border-box;
+    
 }
+
+  
 .nav-page{
     padding: 0;
     margin: 0;

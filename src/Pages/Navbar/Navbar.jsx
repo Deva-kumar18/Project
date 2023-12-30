@@ -1,17 +1,25 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Media from 'react-media';
+import { CloseOutlined, MenuOutlined } from '@ant-design/icons';
 
 const Navbar = () => {
     const navigate= useNavigate()
     const [isToggled,setIsToggled] = useState(false);
     const navHome=()=>{
         navigate("/home")
+        setIsFirstIcon(true); 
     }
     const navProfBranding=()=>{
       navigate("/professionalbranding")
+      setIsFirstIcon(true); 
   }
+  const [isFirstIcon, setIsFirstIcon] = useState(true);
 
+  const handleClick = () => {
+    setIsFirstIcon(!isFirstIcon);
+  };
+  
   return (
     <>
     <Media query={{ maxWidth: 599 }}>
@@ -21,8 +29,8 @@ const Navbar = () => {
              <div className='navbar-container-small'>
                   <div className='navbar-wrapper-small'>
                   <div className='navbar-icon'><h1 className='linka-icon'>Linka</h1></div> 
-                  <div className='navbar-btn'><h1 className='linka-ico' 
-                  onClick={()=> setIsToggled(isToggled === false ? true : false)}>Button</h1></div>
+                  <div ><h1 className='nav-btn' 
+                  onClick={()=> {setIsToggled(isToggled === false ? true : false);handleClick();}}>{isFirstIcon?<MenuOutlined />:<CloseOutlined />}</h1></div>
                   </div>
                   {isToggled &&
                   <div className='nav-items-small'>
