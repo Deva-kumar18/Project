@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Media from 'react-media';
 
@@ -11,6 +11,7 @@ const Navbar = () => {
     const navProfBranding=()=>{
       navigate("/professionalbranding")
   }
+
   return (
     <>
     <Media query={{ maxWidth: 599 }}>
@@ -19,7 +20,7 @@ const Navbar = () => {
               <>
              <div className='navbar-container-small'>
                   <div className='navbar-wrapper-small'>
-                  <div className='navbar-icon'><h1 className='linka-ico'>Linka</h1></div> 
+                  <div className='navbar-icon'><h1 className='linka-icon'>Linka</h1></div> 
                   <div className='navbar-btn'><h1 className='linka-ico' 
                   onClick={()=> setIsToggled(isToggled === false ? true : false)}>Button</h1></div>
                   </div>

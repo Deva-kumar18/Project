@@ -1,6 +1,4 @@
 import React from "react";
-import Home from "../Home/Home";
-import ProfessionalBranding from "../ProfessionalBranding/ProfessionalBranding";
 import { Outlet } from "react-router-dom";
 
 const Content = () => {
