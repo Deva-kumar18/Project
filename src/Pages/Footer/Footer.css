@@ -16,8 +16,8 @@ display: flex;
 column-gap: 5vw;
 }
 .x-icon{
-    height: 26px;
-    width: 26px;
+    height: 24px;
+    width: 24px;
     box-sizing: border-box;
 }
 .upskill-logo{
@@ -36,6 +36,7 @@ column-gap: 5vw;
 .ico-flex{
     display: flex;
     column-gap: 5px;
+    align-items: center;
 }
 .icon-container{
     display: flex;
