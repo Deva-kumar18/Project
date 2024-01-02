@@ -16,17 +16,17 @@ display: flex;
 column-gap: 5vw;
 }
 .x-icon{
-    height: 24px;
-    width: 24px;
+    height: 8vh;
+    width: 4vw;
     box-sizing: border-box;
 }
 .upskill-logo{
-    height: 82px;
-    width: 166px;
+    height: 22vh;
+    width: 24vw;
    
 }
 .ico-headings{
-    font-size: 10px;
+    font-size: 2vw;
     font-weight: 500;
     color: #FFFFFF;
     font-family: Poppins;
@@ -37,6 +37,7 @@ column-gap: 5vw;
     display: flex;
     column-gap: 5px;
     align-items: center;
+    box-sizing: border-box;
 }
 .icon-container{
     display: flex;
@@ -45,7 +46,7 @@ column-gap: 5vw;
     row-gap: 2px;
 }
 .social-ico{
-    font-size: 20px;
+    font-size: 6vh;
     color: #FFFFFF;
 }
 .foot-1{
