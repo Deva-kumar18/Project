@@ -46,16 +46,7 @@
     margin-left: 30px;
     
 }
-.linka-icon{
-    font-size: 7vw;
-    font-family: 'Rajdhani';
-    color: #0C21C1;
-}
-.linka-ico{
-    font-size: 4vw;
-    font-family: "rajdhani";
-    color: #0C21C1;
-}
+
 .nav-btn{
     font-size: 20px;
     color: #0C21C1;
@@ -92,7 +83,7 @@
 }
 .upskill-icon-small{
     height: 10vh;
-    width: 25vw;
+    width: 30vw;
 }
 .nav-item{
     display: flex;

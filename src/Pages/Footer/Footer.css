@@ -122,8 +122,9 @@ column-gap: 5vw;
         font-size: 24px;
     }
     .x-icon{
-        height: 24px;
-        width: 24px;
+        height: 30px;
+        width: 30px;
+        box-sizing: border-box;
     }
     .ico-headings{
         font-size: 15px;
@@ -158,5 +159,8 @@ column-gap: 5vw;
         width: 100vw;
         justify-content: space-around;
     }
-    
+    .ico-flex{
+        display: flex;
+        align-items: center;
+    }
 }
