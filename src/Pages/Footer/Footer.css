@@ -152,7 +152,9 @@ column-gap: 5vw;
     .pages-link{
         display: flex;
         width: 100vw;
-        justify-content: space-around;
+        justify-content: space-between;
+        padding: 0 10vw;
+        box-sizing: border-box;
         }
     .foot-1{
         display: flex;
