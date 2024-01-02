@@ -86,6 +86,14 @@
     font-size: 14px;
     font-weight: 500;
 }
+.upskill-icon{
+   height: 11vh;
+   width: 14vw; 
+}
+.upskill-icon-small{
+    height: 16vh;
+    width: 28vw;
+}
 .nav-item{
     display: flex;
     flex-direction: column;

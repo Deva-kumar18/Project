@@ -16,15 +16,14 @@ display: flex;
 column-gap: 5vw;
 }
 .x-icon{
-    height: 20px;
-    width: 20px;
-    border: 2px solid #FFFFFF;
-    border-radius: 6px;
+    height: 24px;
+    width: 24px;
     box-sizing: border-box;
 }
 .upskill-logo{
     height: 70px;
     width: 100px;
+   
 }
 .ico-headings{
     font-size: 10px;

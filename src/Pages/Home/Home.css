@@ -131,6 +131,48 @@ span{
   background-color: #F5F5F5;
   
 }
+/* social media follow  */
+.p-branding-container-4{
+  width: 100vw;
+  padding: 0 30vw;
+  position: relative;
+  height: 20vh;
+  display: flex;
+  align-items: center; 
+}
+.container-4-flex{
+  display: flex;
+  box-sizing: border-box;
+  height: 12vh;
+  align-items: center;
+  width: 40vw;
+  justify-content: space-between;
+  background-color: #FFD24F;
+  border-radius: 20px;
+  position: relative;
+}
+.telegram-icon{
+  height: 10vh;
+  width: 6vw;
+  position: absolute;
+  top: 0vh;
+  margin-left: 2vw;
+  z-index: 1;
+  
+}
+.read-icon{
+  height: 14vh;
+  width: 8vw;
+  margin-bottom: 2vh;
+}
+.p-branding-page-container-heading-1{
+  font-size: 1.2vw;
+  font-family: Poppins;
+  font-weight: 600;
+  color:  #313131;
+  line-height: 80px;
+  margin-left: 8vw;
+}
 
 
 /* Media @query */

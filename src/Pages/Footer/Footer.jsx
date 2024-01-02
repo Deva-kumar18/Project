@@ -1,6 +1,6 @@
 import { FacebookOutlined,InstagramOutlined } from '@ant-design/icons'
 import React from 'react'
-import Twitter from '../../Assets/logo-x.png'
+import Twitter from '../../Assets/xicon.png'
 import logo from '../../Assets/Upskill-logo.png'
 
 const Footer = () => {
