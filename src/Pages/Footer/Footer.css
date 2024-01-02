@@ -21,8 +21,8 @@ column-gap: 5vw;
     box-sizing: border-box;
 }
 .upskill-logo{
-    height: 22vh;
-    width: 24vw;
+    height: 18vh;
+    width: 20vw;
    
 }
 .ico-headings{
@@ -44,6 +44,7 @@ column-gap: 5vw;
     column-gap: 10px;
     flex-direction: column;
     row-gap: 2px;
+    
 }
 .social-ico{
     font-size: 6vh;
@@ -166,5 +167,10 @@ column-gap: 5vw;
     .ico-flex{
         display: flex;
         align-items: center;
+    }
+    .upskill-logo{
+        height: 16vh;
+        width: 40vw;
+       
     }
 }
