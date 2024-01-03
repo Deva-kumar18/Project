@@ -43,7 +43,7 @@ span{
   font-size: 1.5vw;
 }
 .top-image{
-  height: 45vh;
+  height: 52vh;
   width: 35vw;
 }
 .join-btn{
@@ -288,7 +288,7 @@ span{
     line-height: 3vh;
   }
   .home-page-container-3{
-    height: 54vh;
+    height: 64vh;
     width: 100vw;
     box-sizing: border-box;
     display: flex;
@@ -299,9 +299,9 @@ span{
     
   }
   .img-3{
-    height: 30vh;
-    width: 70vw;
-    padding: 0 5vw;
+    height: 40vh;
+    width: 80vw;
+    padding: 0 10vw;
   }
   .cont-3-text{
     width: 90vw;
